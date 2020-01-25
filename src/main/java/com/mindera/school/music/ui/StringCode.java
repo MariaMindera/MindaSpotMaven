@@ -2,7 +2,9 @@ package com.mindera.school.music.ui;
 
 public class StringCode {
     public static String capitalizeEachWord(String str) {
-        if (str == null || str.length() == 0)
+        str = str.trim();
+
+        if (str.length() == 0)
             return "";
 
         if (str.length() == 1)
@@ -21,20 +23,23 @@ public class StringCode {
             else
                 sbCapitalizedWords.append(word.toUpperCase());
 
-            sbCapitalizedWords.append(" ");
+
+            if (!word.equals("")) {
+                sbCapitalizedWords.append(" ");
+            }
         }
 
         return sbCapitalizedWords.toString().trim();
     }
 
     public static String capitalizeFirstWordOfSentences(String str) {
-        if (str == null || str.length() == 0)
+        str = str.trim();
+
+        if (str.length() == 0)
             return "";
 
         if (str.length() == 1)
             return str.toUpperCase();
-
-        str = str.trim();
 
         String[] words = str.split(" ");
 
@@ -64,7 +69,9 @@ public class StringCode {
                         .append(words[i].toLowerCase());
             }
 
-            sbCapitalizedWords.append(" ");
+            if (!words[i].equals("")) {
+                sbCapitalizedWords.append(" ");
+            }
         }
 
         return sbCapitalizedWords.toString().trim();
