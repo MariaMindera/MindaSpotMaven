@@ -1,7 +1,7 @@
-package com.mindera.school.music.ui.requestPropertys;
+package com.mindera.school.music.ui.request.requestPropertys;
 
-import com.mindera.school.music.ui.KeyValue;
-import com.mindera.school.music.ui.RequestProperty;
+import com.mindera.school.music.ui.request.KeyValue;
+import com.mindera.school.music.ui.request.RequestProperty;
 import com.mindera.school.music.ui.StringCode;
 
 import java.util.Scanner;

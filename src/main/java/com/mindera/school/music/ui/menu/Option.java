@@ -1,4 +1,4 @@
-package com.mindera.school.music.ui;
+package com.mindera.school.music.ui.menu;
 
 public class Option {
     private String text;

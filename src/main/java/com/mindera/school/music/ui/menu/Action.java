@@ -1,4 +1,4 @@
-package com.mindera.school.music.ui;
+package com.mindera.school.music.ui.menu;
 
 public interface Action {
     void execute();

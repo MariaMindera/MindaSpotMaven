@@ -1,4 +1,4 @@
-package connection;
+package databaseapi;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -29,7 +29,7 @@ public class DBConnection {
         try {
             System.out.printf("Connecting to database %s...%n", DB_NAME);
 
-            con = DriverManager.getConnection(String.format("jdbc:mysql://%s%s", HOST, DB_NAME), USER, PASSWORD);
+            con = DriverManager.getConnection(String.format("jdbc:mysql://%s/%s", HOST, DB_NAME), USER, PASSWORD);
 
             System.out.println("Connected");
         } catch (SQLException e) {

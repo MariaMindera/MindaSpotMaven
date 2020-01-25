@@ -1,6 +1,6 @@
-package com.mindera.school.music.ui;
+package com.mindera.school.music.ui.request;
 
-import com.mindera.school.music.ui.requestPropertys.*;
+import com.mindera.school.music.ui.request.requestPropertys.*;
 
 import java.util.ArrayList;
 import java.util.List;

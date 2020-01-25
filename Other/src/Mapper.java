@@ -1,5 +1,3 @@
-package com.mindera.school.music.ui;
-
 import com.mindera.school.music.actions.album.AddAlbumAction;
 import com.mindera.school.music.actions.artist.AddArtistAction;
 import com.mindera.school.music.actions.studio.AddStudioAction;

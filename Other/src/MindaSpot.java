@@ -1,5 +1,3 @@
-package com.mindera.school.music;
-
 import com.mindera.school.music.actions.others.ExitOption;
 import com.mindera.school.music.actions.others.LoginAction;
 import com.mindera.school.music.actions.user.RegisterAction;

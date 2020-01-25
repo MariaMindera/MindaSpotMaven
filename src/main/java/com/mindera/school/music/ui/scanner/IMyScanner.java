@@ -1,4 +1,4 @@
-package com.mindera.school.music.ui;
+package com.mindera.school.music.ui.scanner;
 
 public interface IMyScanner {
     int nextInt();

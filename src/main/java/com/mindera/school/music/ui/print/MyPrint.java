@@ -1,4 +1,4 @@
-package com.mindera.school.music.ui;
+package com.mindera.school.music.ui.print;
 
 public class MyPrint implements IMyPrint {
     @Override
